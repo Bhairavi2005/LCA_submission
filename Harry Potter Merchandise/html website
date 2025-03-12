@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harry Potter Merchandise Online Store">
+    <title>Harry Potter Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <form action="html website 2" method="get">
+
+    <header>
+        <h1>Welcome to the Harry Potter Merchandise Store</h1>
+        <nav>
+            <ul>
+                <li><a href="html website" class="active">Home</a></li>
+                <li><a href="html website 2">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Discover Magical Items!</h2>
+        <p>Find wands, robes, and collectibles from the wizarding world.</p>
+    </section>
+    
+    <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="grid">
+            <article>
+                <img src="https://i.pinimg.com/736x/e1/7f/d9/e17fd93ac02ec5bf5d165ecc9890ca3a.jpg" alt="Elder Wand" width="400px" height="500px" >
+                <h3>Elder Wand</h3>
+                <p>Powerful wand with ancient magic.</p>
+                <div class="cart">
+                    <div class="container">
+                    <div class="row">
+                        <p>Add to cart</p>
+                        <label> 
+                            <input type="checkbox" checked="checked" >  
+                        </label>
+                </div>
+            </article>
+            <article>
+                <img src="https://i.pinimg.com/736x/9f/2c/47/9f2c473878f3fdf0b77c8e85266a9b36.jpg" alt="Hogwarts Robe" width="400px" height="540px" >
+                <h3>Hogwarts Robe</h3>
+                <p>Official house robes with embroidery.</p>
+            </article>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Harry Potter Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

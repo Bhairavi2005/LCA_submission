@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Harry Potter Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop Harry Potter Merchandise</h1>
+        <nav>
+            <ul>
+                <li>   <a href="html website">Home</a></li>
+                <li><a href="html website 2" class="active">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="shop">
+        <h2>Available Products</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Golden Snitch</td>
+                <td>Replica of the famous Quidditch Snitch.</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Sorting Hat</td>
+                <td>Interactive hat that speaks!</td>
+                <td>$40</td>
+            </tr>
+        </table>
+    </section>
+
+    <div>
+        <label for="fname">Your name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Bhairavi" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Godbole" required>
+    </div>
+
+    <br>
+       
+    <div>
+        <label for="pass"> Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="12" required>
+    </div>
+
+    <br> 
+
+    <div>
+        <label for="Email"> Email:</label>
+        <input type="Email" id="Email" name="Email" placeholder="bhairavi.g@gmail.com" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="Phone"> Phone no:</label>
+        <input type="Tel" id="phone" name="phone" placeholder="+91 7987255681" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="date"> Birthdate:</label>
+        <input type="date" id="date" name="date" value="date"  required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="quantity">  Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="15" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="Title">Title:</label>
+
+        <label for="Male"> Male</label>
+        <input type="radio" id="Male" name="title" value="Male">
+
+        <label for="Female"> Female</label>
+        <input type="radio" id="Female" name="title" value="Female">
+
+        <label for="Other" >Other</label>
+        <input type="radio" id="Other" name="title" value="Other">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="payment">Payment: </label>
+        <select id="Payment" name="Payment">
+            <option value="GPay" > GPay</option>
+            <option value="Cash on Delivery" > Cash on Delivery</option>
+            <option value="Debit Card" > Debit Card</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="Subscribe"> Subscribe:</label>
+        <input type="checkbox" id="Subscribe" name="Subscribe" >
+    </div>
+
+    <br>
+
+    <div>
+          <input type="reset">
+    </div>
+    
+     <br>
+
+    <div>
+          <input type="submit">
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Harry Potter Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
